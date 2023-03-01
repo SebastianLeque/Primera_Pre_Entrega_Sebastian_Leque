@@ -32,7 +32,7 @@ function PREGUNTAR (){
 
 
 function LUZ(){
-    alert("La Luz tiene un costo del 1% mas por dia despues de su fecha de vencimiento sumado a un 21% mas de IVA")
+    alert("La Luz tiene un costo del 1% mas por dia despues de su fecha de vencimiento, mas un 21% de IVA")
     PedirMonto ()
     total = precio *((demora/100)+1) * 1.21
     MensajeImpuesto ()
@@ -40,14 +40,14 @@ function LUZ(){
 }
 
 function AGUA(){
-    alert("Si la boleta de agua esta vencida se abona un 2% mas por dia desde la fecha de su vencimiento + Iva + el IPFS \"Impuesto Piletita Feliz Solidario\" de $500 por pileta, en caso de que usted posea alguna")
+    alert("Si la boleta de agua esta vencida se abona un 2% mas por dia desde la fecha de su vencimiento + IVA + el IPFS \"Impuesto Piletita Feliz Solidario\" de $500 por pileta, en caso de que usted posea alguna")
     PedirMonto ()
     pileta = (prompt("Usted tiene pileta para darse unos richos chapusones? si/no"))
     if (pileta.toLowerCase() == "si"){
         impPileta = 500
         cantPileta = parseFloat(prompt("Cuantas piletas posee?"))
     } else {
-        alert ("Espero que no nos mienta!, pasaremos por un helicoptero por encima de su casa para verificar")
+        alert ("Espero que no nos mienta!, pasaremos con un helicoptero por encima de su casa para verificar")
     }
     total = precio *((demora*2/100)+1) * 1.21 + impPileta*cantPileta
     MensajeImpuesto ()
