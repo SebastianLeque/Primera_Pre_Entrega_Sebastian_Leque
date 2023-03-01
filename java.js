@@ -11,11 +11,11 @@ let preguntaContinuar
 
 function PedirMonto (){
     precio = parseFloat(prompt("Ingrese el monto de su consumo"))
-    demora = parseFloat(prompt("Ingrese la cantidad de dias que pasaron despues de la fecha de vencimiento"))
+    demora = parseFloat(prompt("Ingrese la cantidad de dias que pasaron despues de la fecha de vencimiento, si su boleta no esta vencida, ingrese 0"))
 }
 
 function MensajeImpuesto (){
-    alert("Usted debe abonar un total de $" + total)
+    alert("Usted debe abonar un total de $" + total.toFixed(2))
 }
 
 function PREGUNTAR (){
