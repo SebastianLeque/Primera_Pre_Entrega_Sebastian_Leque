@@ -28,9 +28,6 @@ function PREGUNTAR (){
     }
 }
 
-
-
-
 function LUZ(){
     alert("La Luz tiene un costo del 1% mas por dia despues de su fecha de vencimiento, mas un 21% de IVA")
     PedirMonto ()
