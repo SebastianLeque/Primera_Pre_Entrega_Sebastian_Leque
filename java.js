@@ -34,7 +34,7 @@ function PREGUNTAR (){
 function LUZ(){
     alert("La Luz tiene un costo del 1% mas por dia despues de su fecha de vencimiento, mas un 21% de IVA")
     PedirMonto ()
-    total = precio *((demora/100)+1) * 1.21
+    total = precio * ((demora/100)+1) * iva
     MensajeImpuesto ()
     PREGUNTAR ()
 }
@@ -51,7 +51,7 @@ function AGUA(){
         impPileta = 0
         cantPileta = 0
     }
-    total = precio *((demora*2/100)+1) * 1.21 + impPileta*cantPileta
+    total = precio * ((demora*2/100)+1) * iva + impPileta*cantPileta
     MensajeImpuesto ()
     PREGUNTAR ()
 }
