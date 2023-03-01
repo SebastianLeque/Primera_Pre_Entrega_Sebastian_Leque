@@ -39,7 +39,7 @@ function LUZ(){
 function AGUA(){
     alert("Si la boleta de agua esta vencida se abona un 2% mas por dia desde la fecha de su vencimiento + IVA + el IPFS \"Impuesto Piletita Feliz Solidario\" de $500 por pileta, en caso de que usted posea alguna")
     PedirMonto ()
-    pileta = (prompt("Usted tiene pileta para darse unos richos chapusones? si/no"))
+    pileta = (prompt("Usted tiene pileta para darse unos ricos chapusones? si/no"))
     if (pileta.toLowerCase() == "si"){
         impPileta = 500
         cantPileta = parseFloat(prompt("Cuantas piletas posee?"))
