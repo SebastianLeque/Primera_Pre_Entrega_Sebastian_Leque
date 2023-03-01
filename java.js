@@ -49,6 +49,7 @@ function AGUA(){
     } else {
         alert ("Espero que no nos mienta!, pasaremos con un helicoptero por encima de su casa para verificar")
         impPileta = 0
+        cantPileta = 0
     }
     total = precio *((demora*2/100)+1) * 1.21 + impPileta*cantPileta
     MensajeImpuesto ()
